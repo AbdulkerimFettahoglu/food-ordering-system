@@ -15,4 +15,32 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
+    <dependencies>
+        <dependency>
+            <groupId>com.kerimfettahoglu</groupId>
+            <artifactId>order-domain-core</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.kerimfettahoglu</groupId>
+            <artifactId>order-application-service</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.kerimfettahoglu</groupId>
+            <artifactId>order-application</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.kerimfettahoglu</groupId>
+            <artifactId>order-data-access</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.kerimfettahoglu</groupId>
+            <artifactId>order-messaging</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+    </dependencies>
+
 </project>
