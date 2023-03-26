@@ -17,8 +17,7 @@
 	<packaging>pom</packaging>
 	
 	<properties>
-		<maven.complier.source>17</maven.complier.source>
-		<maven.complier.target>17</maven.complier.target>
+
 	</properties>
 
 	<dependencyManagement/>
