@@ -12,6 +12,14 @@
     <artifactId>order-service</artifactId>
     <packaging>pom</packaging>
 
+    <modules>
+        <module>order-domain</module>
+        <module>order-application</module>
+        <module>order-data-access</module>
+        <module>order-messaging</module>
+        <module>order-container</module>
+    </modules>
+
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
