@@ -21,7 +21,6 @@
         <dependency>
             <groupId>com.kerimfettahoglu</groupId>
             <artifactId>order-domain-core</artifactId>
-            <version>${project.version}</version>
         </dependency>
     </dependencies>
 
