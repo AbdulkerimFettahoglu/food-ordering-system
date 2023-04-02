@@ -9,6 +9,6 @@ import java.util.List;
 @Getter
 @Builder
 public class Restaurant extends AggregateRoot<RestaurantId> {
-    private final List<Product> product;
+    private final List<Product> products;
     private boolean active;
 }
