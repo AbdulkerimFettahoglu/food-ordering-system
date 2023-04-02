@@ -79,4 +79,36 @@ public class Order extends AggregateRoot<OrderId> {
                     " is not valid for product " + orderItem.getProduct().getId().getValue());
         }
     }
+
+    /**
+     * This method is responsible for the change of the status of the Order.
+     * You can see the state machine at "order-state-transitions.png".
+     */
+    public void pay() {
+
+    }
+
+    /**
+     * This method is responsible for the change of the status of the Order.
+     * You can see the state machine at "order-state-transitions.png".
+     */
+    public void approve() {
+
+    }
+
+    /**
+     * This method is responsible for the change of the status of the Order.
+     * You can see the state machine at "order-state-transitions.png".
+     */
+    public void initCancel() {
+
+    }
+
+    /**
+     * This method is responsible for the change of the status of the Order.
+     * You can see the state machine at "order-state-transitions.png".
+     */
+    public void cancel() {
+
+    }
 }
